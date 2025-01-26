@@ -1,0 +1,52 @@
+[global]
+    follow = none
+    width = 300
+    height = (0, 300)
+    origin = top-center
+    offset = 30x30
+    notification_limit = 20
+    progress_bar = true
+    progress_bar_height = 10
+    progress_bar_frame_width = 1
+    progress_bar_min_width = 150
+    progress_bar_max_width = 300
+    progress_bar_corner_radius = 10
+    icon_corner_radius = 0
+    indicate_hidden = yes
+    transparency = 30
+    separator_height = 2
+    padding = 8
+    horizontal_padding = 8
+    text_icon_padding = 0
+    frame_width = 1
+    frame_color = "#ffffff"
+    gap_size = 0
+    separator_color = frame
+    sort = yes
+    font = "Roboto Mono" 9 
+    line_height = 1
+    markup = full
+    format = "<b>%s</b>\n%b"
+    alignment = left
+    vertical_alignment = center
+    show_age_threshold = 60
+    ellipsize = middle
+    ignore_newline = no
+    stack_duplicates = true
+    hide_duplicate_count = false
+    show_indicators = yes
+
+[urgency_low]
+    background = "#000000CC"
+    foreground = "#888888"
+    timeout = 6
+
+[urgency_normal]
+    background = "#000000CC"
+    foreground = "#ffffff"
+    timeout = 6 
+
+[urgency_critical]
+    background = "#900000CC"
+    foregound = "#ffffff"
+    timeout = 6
