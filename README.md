@@ -6,8 +6,6 @@
 
 2. **Install Essential Applications**
 
-   Ensure a clean installation of the following:
-
    - `vim`
    - `git`
    - `gh`
@@ -18,15 +16,13 @@
 
 3. **Set Up Hyprland**
 
-   Follow the [Hyprland installation instructions](https://wiki.hyprland.org/Hyprland-Installation) and ensure the installation of additional packages such as:
+   Follow the [Hyprland installation instructions](https://wiki.hyprland.org/Hyprland-Installation) and don't forget additional packages such as:
 
    - `qt5-wayland`
    - `qt6-wayland`
    - `xdg-desktop-portal`
 
-4. **Install Required Packages for Hyprland Configuration**
-
-   For a functional Hyprland setup, install the following:
+4. **Required Packages for the Hyprland Config**
 
    - `dunst`
    - `waybar`
@@ -56,7 +52,7 @@
 
    - Install [vim-plug](https://github.com/junegunn/vim-plug) for plugin management.
 
-8. **Install Additional Packages**
+8. **Extra Packages**
 
    - `yt-dlp`
    - `mpv`
