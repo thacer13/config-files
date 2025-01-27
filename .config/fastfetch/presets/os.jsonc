@@ -45,7 +45,6 @@
         },
         {
             "type": "packages",
-            "format": "{} (dnf)",
             "key": "pkgs  ",
             "keyColor": "34",  
         },
