@@ -1,0 +1,6 @@
+configuration {
+    modes: [ combi, drun ];
+    combi-modes: [ window, drun, run ];
+}
+
+@theme "squared-nord.rasi"
