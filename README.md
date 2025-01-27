@@ -29,7 +29,7 @@
    - `nautilus`
    - `bibata-cursor-themes`
    - `hyprlock`
-   - `wofi`
+   - `rofi-wayland`
    - `flameshot`
    - `pipewire-pulse`
    - `pavucontrol`
@@ -61,6 +61,7 @@
    - `bat`
    - `7zip`
    - `btm`
+   - `foliate`
 
    ...and any others you wish.
 

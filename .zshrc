@@ -1,6 +1,7 @@
 fpath+=($HOME/.config/pure)
 autoload -U promptinit; promptinit
 prompt pure
+EDITOR=vim
 HISTFILE=~/.zsh_history
 HISTSIZE=10000
 SAVEHIST=10000
