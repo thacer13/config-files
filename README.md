@@ -39,10 +39,10 @@
    - `Roboto Mono`
 
 6. **Configure zsh**
-
+---
 > [!WARNING]
 > zsh plugins are currently being sourced from `~/.config/zsh-*/zsh-*(.plugin).zsh`.
-
+---
    Install the following tools:
 
    - `fastfetch`
