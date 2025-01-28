@@ -44,6 +44,7 @@
 
    - `fastfetch`
    - `zoxide`
+   - `zsh-autocomplete`
    - `zsh-completions`
    - `zsh-autosuggestions`
    - `zsh-syntax-highlighting`
@@ -54,14 +55,15 @@
 
 8. **Extra Packages**
 
-   - `yt-dlp`
-   - `mpv`
-   - `ncdu`
-   - `viewnior`
-   - `bat`
    - `7zip`
-   - `btm`
+   - `mpv`
+   - `viewnior`
    - `foliate`
+   - `gnome-calculator`
+   - `yt-dlp`
+   - `btm`
+   - `ncdu`
+   - `bat`
 
    ...and any others you wish.
 
