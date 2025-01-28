@@ -40,8 +40,8 @@
 
 6. **Configure zsh**
 
-   > [!WARNING]
-   > zsh plugins are currently being sourced from `~/.config/zsh-*/zsh-*(.plugin).zsh`.
+> [!WARNING]
+> zsh plugins are currently being sourced from `~/.config/zsh-*/zsh-*(.plugin).zsh`.
 
    Install the following tools:
 
@@ -56,7 +56,7 @@
 
    - Install [vim-plug](https://github.com/junegunn/vim-plug) for plugin management.
 
-8. **Extra Packages:**
+8. **Install Additional Packages**
 
    - `7zip`
    - `mpv`
