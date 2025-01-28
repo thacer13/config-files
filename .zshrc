@@ -25,13 +25,10 @@ bindkey '`' autosuggest-accept
 zstyle :compinstall filename '/home/thacer/.zshrc'
 zstyle ':completion:*' matcher-list '' 'm:{a-zA-Z}={A-Za-z}'
 zstyle ':autocomplete:*complete*:*' insert-unambiguous yes
-
 zstyle ':completion:*' list-max 15
 zstyle -e ':autocomplete:*:*' list-lines 'reply=( $(( LINES / 3 )) )'
 zstyle ':autocomplete:*' min-input 3
 zstyle ':completion:*' list-colors '=(#b)fg=blue,bg=black'
-
-
 #autoload -Uz compinit && compinit
 
 
