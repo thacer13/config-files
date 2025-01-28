@@ -40,6 +40,9 @@
 
 6. **Configure zsh**
 
+   > [!WARNING]
+   > zsh plugins are currently being sourced from `~/.config/zsh-*/zsh-*(.plugin).zsh`.
+
    Install the following tools:
 
    - `fastfetch`
@@ -53,12 +56,13 @@
 
    - Install [vim-plug](https://github.com/junegunn/vim-plug) for plugin management.
 
-8. **Extra Packages**
+8. **Extra Packages:**
 
    - `7zip`
    - `mpv`
    - `viewnior`
    - `foliate`
+   - `lxappearance`
    - `gnome-calculator`
    - `yt-dlp`
    - `btm`
@@ -70,6 +74,7 @@
 9. **Clone Configuration Files**
 
    - Clone the configuration files from the repository.
+   - Change shell to zsh.
 
 10. **Set Up Firefox Profile**
 
