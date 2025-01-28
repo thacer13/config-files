@@ -39,10 +39,7 @@
    - `Roboto Mono`
 
 6. **Configure zsh**
----
-> [!WARNING]
-> zsh plugins are currently being sourced from `~/.config/zsh-*/zsh-*(.plugin).zsh`.
----
+
    Install the following tools:
 
    - `fastfetch`
@@ -51,6 +48,9 @@
    - `zsh-completions`
    - `zsh-autosuggestions`
    - `zsh-syntax-highlighting`
+
+> [!WARNING]
+> zsh plugins are currently being sourced from `~/.config/zsh-*/zsh-*(.plugin).zsh`.
 
 7. **Configure Vim**
 
