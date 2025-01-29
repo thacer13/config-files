@@ -1,7 +1,7 @@
 # thacer13's .config Files
     
-    > [!NOTE]
-    > This isn't being maintained for general use. It's not meant to work out-of-the-box in *any* environment except my own.
+> [!NOTE]
+> This isn't being maintained for general use. It's not meant to work out-of-the-box in *any* environment except my own.
 
 ## Installation
 
