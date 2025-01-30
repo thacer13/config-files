@@ -1,15 +1,15 @@
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => General
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+set runtimepath+=~/.config/vim
+
 if (has('termguicolors'))
     set termguicolors
 endif
 
-call plug#begin()
+call plug#begin('~/.config/vim/plugged')
 
 Plug 'kaicataldo/material.vim', { 'branch': 'main' }
-Plug 'takac/vim-hardtime'
-Plug 'vim-python/python-syntax'
 
 call plug#end()
 
@@ -381,9 +381,6 @@ set timeoutlen=2100
 " Set cursor shape for insert mode (beam)
 let &t_SI = "\e[5 q"  " Start insert mode: beam cursor
 let &t_EI = "\e[1 q"  " End insert mode: block cursor
-
-let g:hardtime_default_on = 0
-let g:python_highlight_all = 1
 
 augroup kitty_padding
     autocmd!
