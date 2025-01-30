@@ -61,11 +61,15 @@
 
 8. **Install Additional Packages**
 
+    Such as
+
    - `gh`
    - `7zip`
    - `mpv`
    - `viewnior`
    - `foliate`
+   - `hypridle`
+   - `hyprshade`
    - `lxappearance`
    - `gnome-calculator`
    - `yt-dlp`
