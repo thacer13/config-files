@@ -1,4 +1,3 @@
-fish
 fastfetch --config ~/.config/fastfetch/os.jsonc
 fpath+=($HOME/.config/pure)
 autoload -U promptinit; promptinit
