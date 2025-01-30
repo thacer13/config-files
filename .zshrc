@@ -1,4 +1,5 @@
-fastfetch --config ~/.config/fastfetch/presets/os.jsonc
+fish
+fastfetch --config ~/.config/fastfetch/os.jsonc
 fpath+=($HOME/.config/pure)
 autoload -U promptinit; promptinit
 prompt pure
@@ -25,7 +26,6 @@ bindkey '`' autosuggest-accept
 zstyle :compinstall filename '/home/thacer/.zshrc'
 zstyle ':completion:*' matcher-list '' 'm:{a-zA-Z}={A-Za-z}'
 zstyle ':autocomplete:*complete*:*' insert-unambiguous yes
-zstyle ':autocomplete:*' delay 0.1
 zstyle ':completion:*' list-max 15
 zstyle -e ':autocomplete:*:*' list-lines 'reply=( $(( LINES / 3 )) )'
 zstyle ':autocomplete:*' min-input 3
