@@ -11,11 +11,10 @@
 
    - `vim`
    - `git`
-   - `gh`
    - `zsh`
-   - `fzf`
    - `kitty`
    - `firefox`
+   - `sddm` or `gdm` (todo)
 
 3. **Set Up Hyprland**
 
@@ -45,6 +44,7 @@
 
    Install the following tools:
 
+   - `fzf`
    - `fastfetch`
    - `zoxide`
    - `zsh-autocomplete`
@@ -57,10 +57,11 @@
 
 7. **Configure Vim**
 
-   - Install [vim-plug](https://github.com/junegunn/vim-plug) for plugin management.
+   - If vim doesn't find it's configs, you can run `echo "source ~/.config/vim/vimrc" > ~/viTmp && mv ~/viTmp ~/.vimrc`
 
 8. **Install Additional Packages**
 
+   - `gh`
    - `7zip`
    - `mpv`
    - `viewnior`
