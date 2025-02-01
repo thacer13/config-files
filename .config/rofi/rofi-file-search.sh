@@ -1,6 +1,9 @@
 #!/bin/bash
 
-# Directories to search
+# Set error handling
+set -euo pipefail
+
+# Define search paths
 ROOT_SEARCH="$HOME"
 RECURSIVE_SEARCH=(
 	"$HOME/Documents"
@@ -10,23 +13,51 @@ RECURSIVE_SEARCH=(
 	"$HOME/Videos"
 )
 
-# File extensions to include
-EXTENSIONS="*.jpg *.jpeg *.png *.gif *.webp *.mp3 *.wav *.mp4 *.mkv *.pdf *.epub *.txt"
+# Define file extensions to search for
+EXTENSIONS=( "jpg" "jpeg" "png" "gif" "webp" "mp3" "wav" "mp4" "mkv" "pdf" "epub" "txt" )
 
-# Gather files in $HOME without subdirectories
-ROOT_FILES=$(find "$ROOT_SEARCH" -maxdepth 1 \( $(echo "$EXTENSIONS" | sed 's/ / -o -iname /g' | sed 's/^/-iname /') \) 2>/dev/null)
+# Build the find expression for extensions
+FIND_EXPR=()
+for ext in "${EXTENSIONS[@]}"; do
+	FIND_EXPR+=( -o -iname "*.$ext" )
+done
+# Remove the first "-o" since we don't need it
+FIND_EXPR=( "${FIND_EXPR[@]:1}" )
 
-# Gather files in other directories, including subdirectories
-RECURSIVE_FILES=$(find "${RECURSIVE_SEARCH[@]}" -type f \( $(echo "$EXTENSIONS" | sed 's/ / -o -iname /g' | sed 's/^/-iname /') \) 2>/dev/null)
+# Search in root directory
+ROOT_FILES=$(find "$ROOT_SEARCH" -maxdepth 1 \( "${FIND_EXPR[@]}" \) 2>/dev/null || true)
 
-# Combine results, remove empty lines, and sort
-FILES=$(echo -e "$ROOT_FILES\n$RECURSIVE_FILES" | grep -v '^$' | sort -f)
+# Search in recursive directories
+RECURSIVE_FILES=""
+for dir in "${RECURSIVE_SEARCH[@]}"; do
+	if [ -d "$dir" ]; then
+    	TEMP_FILES=$(find "$dir" -type f \( "${FIND_EXPR[@]}" \) 2>/dev/null || true)
+    	RECURSIVE_FILES+="$TEMP_FILES"$'\n'
+	fi
+done
 
-# Compact display
+# Combine and clean up results
+FILES=$(printf '%s\n%s' "$ROOT_FILES" "$RECURSIVE_FILES" | grep -v '^[[:space:]]*$' | sort -f)
+
+# Replace $HOME with tilde
 FILES_WITH_TILDE=$(echo "$FILES" | sed "s|^$HOME|~|")
 
-# Use rofi in dmenu mode to display the files
-SELECTION=$(echo "$FILES_WITH_TILDE" | rofi -dmenu -i -p "Search Files:")
+# Check if we have any files before calling rofi
+if [ -z "$FILES_WITH_TILDE" ]; then
+	notify-send "File Search" "No matching files found"
+	exit 1
+fi
 
-# If a selection was made, convert back and open the file
-[ -n "$SELECTION" ] && xdg-open "$(echo "$SELECTION" | sed "s|^~|$HOME|")"
+# Call rofi and handle the selection
+SELECTION=$(echo "$FILES_WITH_TILDE" | rofi -dmenu -i -p "Search Files:") || true
+
+if [ -n "$SELECTION" ]; then
+	FULL_PATH=$(echo "$SELECTION" | sed "s|^~|$HOME|")
+	if [ -f "$FULL_PATH" ]; then
+    	xdg-open "$FULL_PATH"
+	else
+    	notify-send "File Search" "Selected file not found: $SELECTION"
+	fi
+fi
+
+
