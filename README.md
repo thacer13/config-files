@@ -35,22 +35,15 @@
    - `flameshot`
    - `pipewire-pulse`
    - `pavucontrol`
+   - `fzf`
+   - `zoxide`
+   - `fastfetch`
 
 5. **Install Fonts**
 
    - `Roboto Mono`
 
 6. **Configure zsh**
-
-   Install the following tools:
-
-   - `fzf`
-   - `fastfetch`
-   - `zoxide`
-   - `zsh-autocomplete`
-   - `zsh-completions`
-   - `zsh-autosuggestions`
-   - `zsh-syntax-highlighting`
 
 > [!NOTE]
 > zsh plugins are currently being sourced from `~/.config/zsh-*/zsh-*(.plugin).zsh`.

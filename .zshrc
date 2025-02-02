@@ -1,49 +1,43 @@
 fastfetch --config ~/.config/fastfetch/os.jsonc
+
+export EDITOR=vim
+export TERM="xterm-256color"
 fpath+=($HOME/.config/pure)
 autoload -U promptinit; promptinit
 prompt pure
-EDITOR=vim
+
 HISTFILE=~/.zsh_history
 HISTSIZE=10000
 SAVEHIST=10000
+setopt HIST_IGNORE_ALL_DUPS
+setopt INC_APPEND_HISTORY
+setopt HIST_REDUCE_BLANKS
+
 eval "$(zoxide init zsh)"
-setopt appendhistory
-unsetopt hist_verify
-setopt autocd extendedglob
-setopt interactivecomments
-setopt globdots
-unsetopt beep
+setopt AUTO_CD
+setopt AUTO_PUSHD
+setopt PUSHD_IGNORE_DUPS
+
+setopt EXTENDED_GLOB
+setopt GLOB_DOTS
+setopt INTERACTIVE_COMMENTS
+unsetopt BEEP
+unsetopt HIST_VERIFY
+
 __git_files () {
     _wanted files expl 'local files' _files
 }
 
-
-source ~/.config/zsh-autocomplete/zsh-autocomplete.plugin.zsh
-bindkey -e
 bindkey -v
+export KEYTIMEOUT=1
 bindkey '`' autosuggest-accept
-zstyle :compinstall filename '/home/thacer/.zshrc'
-zstyle ':completion:*' matcher-list '' 'm:{a-zA-Z}={A-Za-z}'
-zstyle ':autocomplete:*complete*:*' insert-unambiguous yes
-zstyle ':completion:*' list-max 15
-zstyle -e ':autocomplete:*:*' list-lines 'reply=( $(( LINES / 3 )) )'
-zstyle ':autocomplete:*' min-input 3
-zstyle ':completion:*' list-colors '=(#b)fg=blue,bg=black'
-#autoload -Uz compinit && compinit
+autoload -Uz compinit && compinit
+zstyle ':completion:*' menu select
+zstyle ':completion:*' matcher-list 'm:{a-zA-Z}={A-Za-z}' 'm:{a-zA-Z}={A-Za-z} l:|=* r:|=*'
 
-
-source <(fzf --zsh)
 source ~/.config/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 source ~/.config/zsh-autosuggestions/zsh-autosuggestions.zsh
 
-function list_files() {
-    local file_count=$(ls -l | wc -l)
-    if [[ file_count -le 20 ]]; then
-        echo ""
-        ls
-    fi
-}
-function chpwd() {
-    list_files
-}
+source <(fzf --zsh)
 
+ZSH_AUTOSUGGEST_STRATEGY=(history completion)
