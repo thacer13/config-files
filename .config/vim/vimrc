@@ -374,7 +374,9 @@ let g:material_terminal_italics = 1
 let g:material_theme_style = 'darker'
 colorscheme material
 
-highlight LineNr term=bold cterm=NONE ctermfg=DarkMagenta ctermbg=NONE gui=NONE guifg=DarkMagenta guibg=NONE
+highlight LineNr term=bold ctermfg=DarkMagenta guifg=DarkMagenta
+let &t_ut=''
+
 set timeout
 set timeoutlen=2100
 
