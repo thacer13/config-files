@@ -77,7 +77,3 @@
    - Clone the configuration files from the repository.
    - Change shell to zsh.
 
-10. **Set Up Firefox Profile**
-
-    - Proceed with the [thacer13/firefox-profile](https://github.com/thacer13/firefox-profile) setup.
-
