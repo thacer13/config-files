@@ -384,6 +384,6 @@ let &t_EI = "\e[1 q"  " End insert mode: block cursor
 
 augroup kitty_padding
     autocmd!
-    autocmd VimEnter * silent !kitty @ set-spacing padding-left=0 padding-top=0 padding-right=0 padding-bottom=0 margin-left=-1
+    autocmd VimEnter * silent !kitty @ set-spacing padding-left=0 padding-top=1 padding-right=1 padding-bottom=1
     autocmd VimLeave * silent !kitty @ set-spacing padding=10 margin=default
 augroup END
