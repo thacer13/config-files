@@ -37,7 +37,7 @@
 
 4. **Install Fonts & Themes**
 
-   - `ttf-roboto-mono-nerd` `gnome-themes-extra` `lxappearance` `bibata-cursor-theme *(AUR)*` 
+   - `ttf-roboto-mono-nerd` `gnome-themes-extra` `lxappearance` `bibata-cursor-theme`***(AUR)*** 
 
 5. **Configure zsh & vim**
 
