@@ -37,14 +37,13 @@
 
 4. **Install Fonts & Themes**
 
-   - `ttf-roboto-mono-nerd` `gnome-themes-extra` `bibata-cursor-themes` `lxappearance`
+   - `ttf-roboto-mono-nerd` `gnome-themes-extra` `lxappearance` `bibata-cursor-theme *(AUR)*` 
 
 5. **Configure zsh & vim**
 
-> [!NOTE]
-> zsh plugins are currently being sourced from `~/.config/zsh-*/zsh-*(.plugin).zsh`.
+   - zsh plugins are currently being sourced from `~/.config/zsh-*/zsh-*(.plugin).zsh`.
 
-If vim doesn't find it's configs, you can run `echo "source ~/.config/vim/vimrc" > ~/viTmp && mv ~/viTmp ~/.vimrc`
+   - If vim doesn't find it's configs, you can run `echo "source ~/.config/vim/vimrc" > ~/viTmp && mv ~/viTmp ~/.vimrc`
 
 6. **Clone Configuration Files**
 
