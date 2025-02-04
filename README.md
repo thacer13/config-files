@@ -38,10 +38,11 @@
    - `fzf`
    - `zoxide`
    - `fastfetch`
+   - `imagemagick`
 
 5. **Install Fonts**
 
-   - `Roboto Mono`
+   - `Roboto Mono` (you may also use Roboto Mono Nerd [`ttf-roboto-mono-nerd` on arch] but will have to change the kitty config
 
 6. **Configure zsh**
 
@@ -56,7 +57,7 @@
 
     Such as
 
-   - `gh`
+   - `github-cli`
    - `7zip`
    - `mpv`
    - `viewnior`
@@ -66,7 +67,7 @@
    - `lxappearance`
    - `gnome-calculator`
    - `yt-dlp`
-   - `btm`
+   - `bottom`
    - `ncdu`
    - `bat`
 
