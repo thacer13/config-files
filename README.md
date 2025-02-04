@@ -5,76 +5,57 @@
 
 ## Installation
 
-1. **Set Up Base System**
-
-2. **Install Essential Applications**
+1. **Set Up Base System & Install Essential Applications**
 
    - `vim`
    - `git`
-   - `zsh`
    - `kitty`
    - `firefox`
-   - `sddm` or `gdm` (todo)
+   - `sddm` or `gdm` (config todo)
 
-3. **Set Up Hyprland**
+2. **Set Up Hyprland**
 
    Follow the [Hyprland installation instructions](https://wiki.hyprland.org/Hyprland-Installation) and don't forget additional packages such as:
 
-   - `qt5-wayland`
-   - `qt6-wayland`
-   - `xdg-desktop-portal`
+   - `xdg-desktop-portal-hyprland` `qt5-wayland` `qt6-wayland` `polkit-kde-agent`
 
-4. **Required Packages for the Hyprland Config**
+3. **Required Packages for the Hyprland Config**
 
    - `dunst`
    - `waybar`
+   - `zsh`
    - `nautilus`
-   - `bibata-cursor-themes`
    - `hyprlock`
    - `rofi-wayland`
-   - `flameshot`
    - `pipewire-pulse`
    - `pavucontrol`
    - `fzf`
    - `zoxide`
    - `fastfetch`
    - `imagemagick`
+   - `flameshot`
 
-5. **Install Fonts**
+4. **Install Fonts & Themes**
 
-   - `Roboto Mono` (you may also use Roboto Mono Nerd [`ttf-roboto-mono-nerd` on arch] but will have to change the kitty config
+   - `ttf-roboto-mono-nerd` `gnome-themes-extra` `bibata-cursor-themes` `lxappearance`
 
-6. **Configure zsh**
+5. **Configure zsh & vim**
 
 > [!NOTE]
 > zsh plugins are currently being sourced from `~/.config/zsh-*/zsh-*(.plugin).zsh`.
 
-7. **Configure Vim**
+> If vim doesn't find it's configs, you can run `echo "source ~/.config/vim/vimrc" > ~/viTmp && mv ~/viTmp ~/.vimrc`
 
-   - If vim doesn't find it's configs, you can run `echo "source ~/.config/vim/vimrc" > ~/viTmp && mv ~/viTmp ~/.vimrc`
-
-8. **Install Additional Packages**
-
-    Such as
-
-   - `github-cli`
-   - `7zip`
-   - `mpv`
-   - `viewnior`
-   - `foliate`
-   - `hypridle`
-   - `hyprshade`
-   - `lxappearance`
-   - `gnome-calculator`
-   - `yt-dlp`
-   - `bottom`
-   - `ncdu`
-   - `bat`
-
-   ...and any others you wish.
-
-9. **Clone Configuration Files**
+6. **Clone Configuration Files**
 
    - Clone the configuration files from the repository.
-   - Change shell to zsh.
+   - Change shell to zsh: `chsh -s $(which zsh)`
+
+7. **Install Additional Packages**
+
+   Such as
+
+   - `github-cli` `7zip` `mpv` `viewnior` `foliate` `gnome-calculator` `yt-dlp` `bottom` `ncdu` `bat` `hypridle` `hyprshade` 
+
+   ...and any others you wish.
 
