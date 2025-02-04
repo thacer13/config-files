@@ -14,7 +14,7 @@ RECURSIVE_SEARCH=(
 )
 
 # Define file extensions to search for
-EXTENSIONS=( "jpg" "jpeg" "png" "gif" "webp" "mp3" "wav" "mp4" "mkv" "pdf" "epub" "txt" )
+EXTENSIONS=( "jpg" "jpeg" "png" "gif" "webp" "bmp" "webm" "mp3" "ogg" "wav" "mp4" "m4v" "avi" "flv" "mov" "mkv" "pdf" "epub" "txt" )
 
 # Build the find expression for extensions
 FIND_EXPR=()
