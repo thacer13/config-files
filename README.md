@@ -15,7 +15,7 @@
 
 2. **Set Up Hyprland**
 
-   Follow the [Hyprland installation instructions](https://wiki.hyprland.org/Hyprland-Installation) and don't forget additional packages such as:
+   Follow the [Hyprland installation instructions](https://wiki.hyprland.org/Getting-Started/Installation/) and don't forget additional packages such as:
 
    - `xdg-desktop-portal-hyprland` `qt5-wayland` `qt6-wayland` `polkit-kde-agent`
 
