@@ -33,15 +33,18 @@ button:hover {
 
 #workspaces button {
     border-bottom: 2px solid transparent;
+    color: @overlay0;
     padding: 0 4px;
 }
 
 #workspaces button.focused {
     background-color: rgba(0, 0, 0, 0);
+    color: @mauve;
 }
 
 #workspaces button.active {
     background-color: rgba(0, 0, 0, 0);
+    color: @mauve;
     border-bottom: 2px solid @maroon;
     margin: 2px;
 }

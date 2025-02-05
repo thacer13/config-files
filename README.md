@@ -54,7 +54,7 @@
 
    Such as
 
-   - `github-cli` `7zip` `mpv` `viewnior` `foliate` `gnome-calculator` `yt-dlp` `bottom` `ncdu` `bat` `hypridle` `hyprshade` 
+   - `7zip` `mpv` `viewnior` `foliate` `gnome-calculator` `github-cli` `yt-dlp` `qbittorrent` `bottom` `ncdu` `bat` `hypridle` `hyprpaper` `hyprshade`
 
    ...and any others you wish.
 
