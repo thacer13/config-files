@@ -1,0 +1,5 @@
+alias ..='cd ..'
+alias ...='cd ../..'
+alias ....='cd ../../..'
+alias dlmp3='yt-dlp -i --extract-audio --audio-format mp3 --audio-quality 0'
+alias cat='bat'

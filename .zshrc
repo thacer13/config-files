@@ -37,7 +37,7 @@ zstyle ':completion:*' matcher-list 'm:{a-zA-Z}={A-Za-z}' 'm:{a-zA-Z}={A-Za-z} l
 
 source ~/.config/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 source ~/.config/zsh-autosuggestions/zsh-autosuggestions.zsh
-
+source ~/.zshrc-aliases
 source <(fzf --zsh)
 
 ZSH_AUTOSUGGEST_STRATEGY=(history completion)
