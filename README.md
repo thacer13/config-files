@@ -5,7 +5,7 @@
 
 ## Installation
 
-1. **Set Up Base System & Install Essential Applications**
+1. **Set Up Base System & Essential Applications**
 
    Such as
 
@@ -16,11 +16,13 @@
    - `firefox`
    - `sddm` or `gdm`
 
-2. **Set Up Hyprland**
+2. **Hyprland**
 
-   Follow the [Hyprland installation instructions](https://wiki.hyprland.org/Getting-Started/Installation/) and don't forget additional packages such as:
+   Please read the [Hyprland installation instructions](https://wiki.hyprland.org/Getting-Started/Installation/).
 
-   - `xdg-desktop-portal-hyprland` `qt5-wayland` `qt6-wayland` `polkit-kde-agent`
+   ```
+   sudo pacman -S xdg-desktop-portal-hyprland qt5-wayland qt6-wayland polkit-kde-agent
+   ```
 
 3. **Required Packages for the Hyprland Config**
 
@@ -46,7 +48,7 @@
 
    - `ttf-roboto-mono-nerd` `ttf-meslo-nerd` `gnome-themes-extra` `lxappearance` `bibata-cursor-theme`***(AUR)*** 
 
-5. **Configure zsh & vim**
+5. **About zsh & vim**
 
    - zsh plugins are currently being sourced from `~/.config/zsh-*/zsh-*(.plugin).zsh`.
 
@@ -61,7 +63,7 @@
 
    Such as
 
-   - `7zip` `mpv` `viewnior` `foliate` `gnome-calculator` `github-cli` `yt-dlp` `qbittorrent` `bottom` `ncdu` `hypridle` `hyprpaper` `hyprshade`***(AUR)***
+   - `7zip` `mpv` `viewnior` `foliate` `gnome-calculator` `gnome-text-editor` `github-cli` `yt-dlp` `qbittorrent` `stow` `bottom` `ncdu` `hypridle` `hyprpaper` `hyprshade`***(AUR)***
 
    ...and any others you wish.
 
