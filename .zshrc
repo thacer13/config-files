@@ -8,7 +8,7 @@ fpath+=($HOME/.config/pure)
 autoload -U promptinit; promptinit
 prompt pure
 
-HISTFILE=~/.config/zsh_history
+HISTFILE=~/.zsh_history
 HISTSIZE=10000
 SAVEHIST=10000
 setopt HIST_IGNORE_ALL_DUPS
