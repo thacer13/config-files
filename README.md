@@ -1,7 +1,7 @@
 ![Header](https://imgur.com/eszGk3V.png)
     
 > [!NOTE]
-> This isn't being maintained for general use. It's not meant to work out-of-the-box in *any* environment except my own.
+> This isn't intended to work out-of-the-box in *any* environment except my own.
 
 ## Installation
 
@@ -15,7 +15,7 @@
 
 2. **Hyprland**
 
-   Please read the [Hyprland installation instructions](https://wiki.hyprland.org/Getting-Started/Installation/).
+   Please read the [Hyprland installation instructions](https://wiki.hyprland.org/Getting-Started/Installation/). For now, using UWSM will require multiple changes to the config.
 
    ```
    sudo pacman -S xdg-desktop-portal-hyprland qt5-wayland qt6-wayland polkit-kde-agent
