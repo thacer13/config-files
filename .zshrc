@@ -13,7 +13,7 @@ setopt HIST_IGNORE_ALL_DUPS
 setopt INC_APPEND_HISTORY
 setopt HIST_REDUCE_BLANKS
 
-eval "$(zoxide init zsh)"
+eval "$(zoxide init zsh --cmd cd)"
 setopt AUTO_CD
 setopt AUTO_PUSHD
 setopt PUSHD_IGNORE_DUPS
