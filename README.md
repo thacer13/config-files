@@ -51,7 +51,7 @@
 > 
 >zsh plugins are currently being sourced from `~/.config/zsh-*/zsh-*(.plugin).zsh`.
 > 
->If vim doesn't find it's configs, you can run `echo "source ~/.config/vim/vimrc" > ~/viTmp && mv ~/viTmp ~/.vimrc`
+>If vim doesn't find its configs, you can run `echo "source ~/.config/vim/vimrc" > ~/viTmp && mv ~/viTmp ~/.vimrc`
 
 4. **Clone Configuration Files**
 
