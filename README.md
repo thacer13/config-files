@@ -14,7 +14,6 @@
    - `pipewire`
    - `kitty`
    - `firefox`
-   - `sddm` or `gdm`
 
 2. **Hyprland**
 
@@ -42,11 +41,13 @@
    `bat`
    `fastfetch`
    `imagemagick`
-   `flameshot` (to be replaced with grimblast soon)
+   `flameshot`\*
    `ttf-roboto-mono-nerd`
    `ttf-meslo-nerd`
    `gnome-themes-extra`
-   `lxappearance` 
+   `lxappearance`
+   
+   \*to be replaced with grimblast soon
 
 > **About zsh & vim**
 > 
