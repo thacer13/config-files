@@ -1,12 +1,14 @@
 fastfetch --config ~/.config/fastfetch/os.jsonc
 
 export EDITOR=vim
+export PATH="$HOME/.local/bin:$PATH"
+export PATH="$HOME/.config/scripts:$PATH"
 export TERM="xterm-256color"
 fpath+=($HOME/.config/pure)
 autoload -U promptinit; promptinit
 prompt pure
 
-HISTFILE=~/.zsh_history
+HISTFILE=~/.config/zsh_history
 HISTSIZE=10000
 SAVEHIST=10000
 setopt HIST_IGNORE_ALL_DUPS
@@ -37,7 +39,7 @@ zstyle ':completion:*' matcher-list 'm:{a-zA-Z}={A-Za-z}' 'm:{a-zA-Z}={A-Za-z} l
 
 source ~/.config/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 source ~/.config/zsh-autosuggestions/zsh-autosuggestions.zsh
-source ~/.zshrc-aliases
+source ~/.config/zshrc-aliases
 source <(fzf --zsh)
 
 ZSH_AUTOSUGGEST_STRATEGY=(history completion)
