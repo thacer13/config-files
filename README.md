@@ -7,11 +7,14 @@
 
 1. **Set Up Base System & Install Essential Applications**
 
+   Such as
+
    - `vim`
    - `git`
+   - `pipewire`
    - `kitty`
    - `firefox`
-   - `sddm` or `gdm` (config todo)
+   - `sddm` or `gdm`
 
 2. **Set Up Hyprland**
 
@@ -21,23 +24,26 @@
 
 3. **Required Packages for the Hyprland Config**
 
-   - `dunst`
-   - `waybar`
-   - `zsh`
-   - `nautilus`
-   - `hyprlock`
-   - `rofi-wayland`
-   - `pipewire-pulse`
-   - `pavucontrol`
-   - `fzf`
-   - `zoxide`
-   - `fastfetch`
-   - `imagemagick`
-   - `flameshot`
+   ```
+   sudo pacman -S --needed dunst waybar zsh nautilus hyprlock rofi-wayland pipewire-pulse pavucontrol fzf zoxide fastfetch imagemagick wl-clipboard grim slurp jq hyprpicker ttf-roboto-mono-nerd ttf-meslo-nerd gnome-themes-extra lxappearance
+   ```
+   `dunst`
+   `waybar`
+   `zsh`
+   `nautilus`
+   `hyprlock`
+   `rofi-wayland`
+   `pipewire-pulse`
+   `pavucontrol`
+   `fzf`
+   `zoxide`
+   `fastfetch`
+   `imagemagick`
+   `flameshot`
 
 4. **Install Fonts & Themes**
 
-   - `ttf-roboto-mono-nerd` `gnome-themes-extra` `lxappearance` `bibata-cursor-theme`***(AUR)*** 
+   - `ttf-roboto-mono-nerd` `ttf-meslo-nerd` `gnome-themes-extra` `lxappearance` `bibata-cursor-theme`***(AUR)*** 
 
 5. **Configure zsh & vim**
 
