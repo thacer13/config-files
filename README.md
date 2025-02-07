@@ -48,18 +48,18 @@
    `gnome-themes-extra`
    `lxappearance` 
 
-4. **About zsh & vim**
+> **About zsh & vim**
+> 
+>zsh plugins are currently being sourced from `~/.config/zsh-*/zsh-*(.plugin).zsh`.
+> 
+>If vim doesn't find it's configs, you can run `echo "source ~/.config/vim/vimrc" > ~/viTmp && mv ~/viTmp ~/.vimrc`
 
-   - zsh plugins are currently being sourced from `~/.config/zsh-*/zsh-*(.plugin).zsh`.
-
-   - If vim doesn't find it's configs, you can run `echo "source ~/.config/vim/vimrc" > ~/viTmp && mv ~/viTmp ~/.vimrc`
-
-5. **Clone Configuration Files**
+4. **Clone Configuration Files**
 
    - Clone the configuration files from the repository.
    - Change shell to zsh: `chsh -s $(which zsh)`
 
-6. **Install Additional Packages**
+5. **Install Additional Packages**
 
    Such as
 
