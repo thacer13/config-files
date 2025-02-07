@@ -25,7 +25,7 @@
 3. **Required Packages for the Hyprland Config**
 
    ```
-   sudo pacman -S --needed dunst waybar zsh nautilus hyprlock rofi-wayland pipewire-pulse pavucontrol fzf zoxide fastfetch imagemagick wl-clipboard grim slurp jq hyprpicker ttf-roboto-mono-nerd ttf-meslo-nerd gnome-themes-extra lxappearance
+   sudo pacman -S --needed dunst waybar zsh nautilus hyprlock rofi-wayland pipewire-pulse pavucontrol fzf zoxide bat fastfetch imagemagick wl-clipboard grim slurp jq hyprpicker ttf-roboto-mono-nerd ttf-meslo-nerd gnome-themes-extra lxappearance
    ```
    `dunst`
    `waybar`
@@ -37,6 +37,7 @@
    `pavucontrol`
    `fzf`
    `zoxide`
+   `bat`
    `fastfetch`
    `imagemagick`
    `flameshot`
@@ -60,7 +61,7 @@
 
    Such as
 
-   - `7zip` `mpv` `viewnior` `foliate` `gnome-calculator` `github-cli` `yt-dlp` `qbittorrent` `bottom` `ncdu` `bat` `hypridle` `hyprpaper` `hyprshade`
+   - `7zip` `mpv` `viewnior` `foliate` `gnome-calculator` `github-cli` `yt-dlp` `qbittorrent` `bottom` `ncdu` `hypridle` `hyprpaper` `hyprshade`***(AUR)***
 
    ...and any others you wish.
 
