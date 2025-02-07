@@ -42,28 +42,29 @@
    `bat`
    `fastfetch`
    `imagemagick`
-   `flameshot`
+   `flameshot` (to be replaced with grimblast soon)
+   `ttf-roboto-mono-nerd`
+   `ttf-meslo-nerd`
+   `gnome-themes-extra`
+   `lxappearance` 
 
-4. **Install Fonts & Themes**
-
-   - `ttf-roboto-mono-nerd` `ttf-meslo-nerd` `gnome-themes-extra` `lxappearance` `bibata-cursor-theme`***(AUR)*** 
-
-5. **About zsh & vim**
+4. **About zsh & vim**
 
    - zsh plugins are currently being sourced from `~/.config/zsh-*/zsh-*(.plugin).zsh`.
 
    - If vim doesn't find it's configs, you can run `echo "source ~/.config/vim/vimrc" > ~/viTmp && mv ~/viTmp ~/.vimrc`
 
-6. **Clone Configuration Files**
+5. **Clone Configuration Files**
 
    - Clone the configuration files from the repository.
    - Change shell to zsh: `chsh -s $(which zsh)`
 
-7. **Install Additional Packages**
+6. **Install Additional Packages**
 
    Such as
 
-   - `7zip` `mpv` `viewnior` `foliate` `gnome-calculator` `gnome-text-editor` `github-cli` `yt-dlp` `qbittorrent` `stow` `bottom` `ncdu` `hypridle` `hyprpaper` `hyprshade`***(AUR)***
+   - `7zip` `mpv` `viewnior` `foliate` `gnome-calculator` `gnome-text-editor` `github-cli` `yt-dlp` `qbittorrent` `stow` `bottom` `ncdu` `hypridle` `hyprpaper` `hyprshade`***(AUR)*** `bibata-cursor-theme`***(AUR)*** 
+
 
    ...and any others you wish.
 
