@@ -37,6 +37,17 @@ autoload -Uz compinit && compinit
 zstyle ':completion:*' menu select
 zstyle ':completion:*' matcher-list 'm:{a-zA-Z}={A-Za-z}' 'm:{a-zA-Z}={A-Za-z} l:|=* r:|=*'
 
+function list_files() {
+    local file_count=$(ls -l | wc -l)
+    if [[ file_count -le 18 ]]; then
+        echo ""
+        eza --icons --color
+    fi
+}
+function chpwd () {
+    list_files
+}
+
 source ~/.config/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 source ~/.config/zsh-autosuggestions/zsh-autosuggestions.zsh
 source ~/.config/zshrc-aliases
