@@ -15,7 +15,7 @@
 
 2. **Hyprland**
 
-   Please read the [Hyprland installation instructions](https://wiki.hyprland.org/Getting-Started/Installation/). For now, using UWSM will require multiple changes to the config.
+   Please read the [Hyprland installation instructions](https://wiki.hyprland.org/Getting-Started/Installation/). *For now, using UWSM will require multiple changes to the config.*
 
    ```
    sudo pacman -S xdg-desktop-portal-hyprland qt5-wayland qt6-wayland polkit-kde-agent
@@ -24,7 +24,7 @@
 3. **Install required Packages for the Hyprland Config**
 
    ```
-   sudo pacman -S --needed dunst waybar zsh nautilus hyprlock rofi-wayland pipewire-pulse pavucontrol fzf zoxide bat fastfetch imagemagick wl-clipboard grim slurp jq hyprpicker ttf-roboto-mono-nerd ttf-meslo-nerd gnome-themes-extra lxappearance
+   sudo pacman -S --needed dunst waybar zsh nautilus hyprlock rofi-wayland pipewire-pulse pavucontrol fzf zoxide eza bat fastfetch imagemagick wl-clipboard grim slurp jq hyprpicker ttf-roboto-mono-nerd ttf-meslo-nerd gnome-themes-extra lxappearance
    ```
    `dunst`
    `waybar`
@@ -36,6 +36,7 @@
    `pavucontrol`
    `fzf`
    `zoxide`
+   `eza`
    `bat`
    `fastfetch`
    `imagemagick`
