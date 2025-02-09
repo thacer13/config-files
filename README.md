@@ -40,14 +40,16 @@
    `bat`
    `fastfetch`
    `imagemagick`
-   `flameshot`\*
    `wlsunset`
+   `wl-clipboard`
+   `grim`
+   `slurp`
+   `jq`
+   `hyprpicker`
    `ttf-roboto-mono-nerd`
    `ttf-meslo-nerd`
    `gnome-themes-extra`
    `lxappearance`
-   
-   \*to be replaced with grimblast soon
 
 > **About zsh & vim**
 > 
