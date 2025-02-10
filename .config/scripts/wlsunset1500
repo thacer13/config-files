@@ -11,8 +11,8 @@ if pgrep -x "wlsunset" > /dev/null; then
     if pgrep -x "wlsunset" > /dev/null; then
         forceful_kill
     fi
-    notify-send "WLSunset disabled" "NOW"
+    dunstify "WLSunset disabled"
 else
     wlsunset -t 1500 &
-    notify-send "WLSunset enabled with temp 1500K" "NOW"
+    dunstify "WLSunset enabled with temp 1500K"
 fi
