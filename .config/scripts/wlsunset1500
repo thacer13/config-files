@@ -1,7 +1,18 @@
 #!/bin/bash
 
+forceful_kill() {
+    pkill -9 wlsunset
+    sleep 0.2
+}
+
 if pgrep -x "wlsunset" > /dev/null; then
-    killall wlsunset
+    killall wlsunset 2>/dev/null
+    
+    if pgrep -x "wlsunset" > /dev/null; then
+        forceful_kill
+    fi
+    notify-send "WLSunset disabled" "NOW"
 else
-    wlsunset -t 1500
+    wlsunset -t 1500 &
+    notify-send "WLSunset enabled with temp 1500K" "NOW"
 fi
