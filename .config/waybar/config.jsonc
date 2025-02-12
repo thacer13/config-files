@@ -29,7 +29,8 @@
     "tooltip-format-ethernet":"Wired connection",
     "format-linked": "{ifname} (No IP) ",
     "format-disconnected": "<span size='13000' foreground='#f5e0dc'>  </span>Disconnected",
-    "tooltip-format-wifi": "Signal Strength: {signalStrength}%"
+    "tooltip-format-wifi": "Signal Strength: {signalStrength}%",
+    "on-click": "notify-send \"Please manage your wireless connections with CLI tool 'impala'.\""
   },
   "pulseaudio": {
       "format": "{icon}  {volume}%",
