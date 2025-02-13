@@ -49,7 +49,10 @@ function chpwd () {
 }
 
 source ~/.config/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+
 source ~/.config/zsh-autosuggestions/zsh-autosuggestions.zsh
+ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=#460046,bold"
+
 source ~/.config/zshrc-aliases
 source <(fzf --zsh)
 
