@@ -7,11 +7,13 @@
     "format": "<span foreground='#f5c2e7'>   </span>{:%a %d %H:%M}",
     "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>"
   },
+///*
   "hyprland/window": {
     "rewrite": {
-      "(.*) — Mozilla Firefox": "  $1",
+      "(.*) — Mozilla Firefox": "$1",
     },
   },
+//*/
   "battery": {
       "bat": "BAT0",
     "states": {
