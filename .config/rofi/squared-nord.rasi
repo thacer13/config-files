@@ -4,7 +4,7 @@
 * {
     font:   "Roboto Mono 12";
 
-    bg0:     #2E3440;
+    bg0: rgba ( 46, 52, 64, 66 % );
     bg1:     #3B4252;
     fg0:     #D8DEE9;
 
