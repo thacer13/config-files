@@ -11,6 +11,7 @@
     "max-length": 148,
     "rewrite": {
       "(.*) — Mozilla Firefox": "$1",
+      "helix(.*)": "[hx] $1",
     },
   },
   "battery": {
