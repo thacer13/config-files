@@ -4,9 +4,23 @@ theme = "snazzy"
 [editor]
 line-number = "relative"
 mouse = false
+true-color = true
 
 [editor.cursor-shape]
 insert = "bar"
 normal = "block"
 select = "underline"
 
+[keys.normal]
+"{" = ["goto_prev_paragraph", "collapse_selection"]
+"}" = ["goto_next_paragraph", "collapse_selection"]
+Z = {Q = ":quit!", Z = ":write-quit!"}
+esc = ["collapse_selection", "keep_primary_selection"]
+G = "goto_file_end"
+
+[keys.select]
+"{" = ["goto_prev_paragraph", "collapse_selection"]
+"}" = ["goto_next_paragraph", "collapse_selection"]
+Z = {Q = ":quit!", Z = ":write-quit!"}
+esc = ["collapse_selection", "keep_primary_selection", "normal_mode"]
+G = "goto_file_end"
