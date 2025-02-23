@@ -1,0 +1,4 @@
+inherits = "snazzy"
+"ui.background" = { bg = "" }
+"ui.linenr" = { fg = "#666666" }
+"ui.linenr.selected" = { fg = "#ccccaa" }
