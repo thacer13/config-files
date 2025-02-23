@@ -12,6 +12,7 @@
     "rewrite": {
       "(.*) — Mozilla Firefox": "$1",
       "helix(.*)": "[hx] $1",
+      "hx(.*)": "[hx] $1",
     },
   },
   "battery": {
