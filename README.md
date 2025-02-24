@@ -68,7 +68,7 @@
 
    Such as
 
-   - `stow` `mpv` `viewnior` `foliate` `gnome-calculator` `gnome-text-editor` `github-cli` `yt-dlp` `7zip` `qbittorrent` `bottom` `ncdu` `hypridle` `hyprpaper` `bibata-cursor-theme`***(AUR)*** 
+   - `stow` `mpv` `viewnior` `foliate` `gnome-calculator` `gnome-text-editor` `github-cli` `yt-dlp` `7zip` `qbittorrent` `btop` `ncdu` `hypridle` `hyprpaper` `bibata-cursor-theme`***(AUR)*** 
 
 
    ...and any others you wish.
