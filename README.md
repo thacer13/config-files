@@ -1,4 +1,4 @@
-![Header](https://imgur.com/eszGk3V.png)
+![Header](https://i.imgur.com/Lu2dBCL.png)
     
 > [!NOTE]
 > This isn't intended to work out-of-the-box in *any* environment except my own.
@@ -68,7 +68,7 @@
 
    Such as
 
-   - `stow` `mpv` `viewnior` `foliate` `gnome-calculator` `gnome-text-editor` `github-cli` `yt-dlp` `7zip` `qbittorrent` `btop` `ncdu` `hypridle` `hyprpaper` `bibata-cursor-theme`***(AUR)*** 
+   - `stow` `mpv` `viewnior` `foliate` `gnome-calculator` `gnome-text-editor` `github-cli` `yt-dlp` `7zip` `qbittorrent` `btop` `ncdu` `hypridle` `hyprpaper` `bibata-cursor-theme`***(AUR)*** `floorp-bin`***(AUR)***
 
 
    ...and any others you wish.
