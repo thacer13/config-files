@@ -32,7 +32,6 @@ __git_files () {
 
 bindkey -v
 export KEYTIMEOUT=1
-bindkey '`' autosuggest-accept
 autoload -Uz compinit && compinit
 zstyle ':completion:*' menu select
 zstyle ':completion:*' matcher-list 'm:{a-zA-Z}={A-Za-z}' 'm:{a-zA-Z}={A-Za-z} l:|=* r:|=*'
