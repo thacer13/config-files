@@ -8,10 +8,9 @@
 1. **Set Up Base System & Essential Applications**
    
    - `pipewire`
-   - `vim`
-   - `git`
    - `kitty`
    - `firefox`
+   - `git`
 
 2. **Hyprland**
 
@@ -54,11 +53,7 @@
    `ttf-meslo-nerd`
    `adobe-source-han-sans-jp-fonts`
 
-> **About zsh & vim**
-> 
 >zsh plugins are currently being sourced from `~/.config/zsh-*/zsh-*(.plugin).zsh`.
-> 
->If vim doesn't find its configs, you can run `echo "source ~/.config/vim/vimrc" > ~/viTmp && mv ~/viTmp ~/.vimrc`
 
 4. **Clone Configuration Files**
 
@@ -69,7 +64,7 @@
 
    Such as
 
-   - `stow` `mpv` `viewnior` `foliate` `gnome-calculator` `gnome-text-editor` `github-cli` `yt-dlp` `7zip` `qbittorrent` `btop` `ncdu` `hypridle` `hyprpaper` `bibata-cursor-theme`***(AUR)*** `floorp-bin`***(AUR)***
+   - `stow` `mpv` `viewnior` `foliate` `gnome-calculator` `gnome-text-editor` `github-cli` `yt-dlp` `7zip` `qbittorrent` `btop` `ncdu` `yazi` `wireplumber` `hypridle` `hyprpaper` `bibata-cursor-theme`***(AUR)*** `floorp-bin`***(AUR)***
 
 
    ...and any others you wish.
