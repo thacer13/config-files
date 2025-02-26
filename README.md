@@ -24,7 +24,7 @@
 3. **Install required Packages for the config**
 
    ```
-   sudo pacman -S --needed less libnotify dunst waybar zsh nautilus hyprlock rofi-wayland pipewire-pulse pavucontrol fzf zoxide eza bat-extras fastfetch imagemagick impala wlsunset wl-clipboard grim slurp jq hyprpicker ttf-roboto-mono-nerd ttf-meslo-nerd adobe-source-han-sans-jp-fonts
+   sudo pacman -S --needed less libnotify dunst waybar zsh nautilus hyprlock rofi-wayland pipewire-pulse pavucontrol fzf zoxide eza bat-extras fastfetch imagemagick impala wlsunset wl-clipboard grim slurp jq hyprpicker ttf-roboto-mono-nerd ttf-meslo-nerd noto-fonts-emoji adobe-source-han-sans-jp-fonts
    ```
    `less`
    `libnotify`
@@ -51,6 +51,7 @@
    `hyprpicker`
    `ttf-roboto-mono-nerd`
    `ttf-meslo-nerd`
+   `noto-fonts-emoji`
    `adobe-source-han-sans-jp-fonts`
 
 >zsh plugins are currently being sourced from `~/.config/zsh-*/zsh-*(.plugin).zsh`.
