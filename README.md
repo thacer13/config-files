@@ -24,7 +24,7 @@
 3. **Install required Packages for the config**
 
    ```
-   sudo pacman -S --needed less libnotify dunst waybar zsh nautilus hyprlock rofi-wayland pipewire-pulse pavucontrol fzf zoxide eza bat fastfetch imagemagick impala wlsunset wl-clipboard grim slurp jq hyprpicker ttf-roboto-mono-nerd ttf-meslo-nerd adobe-source-han-sans-jp-fonts
+   sudo pacman -S --needed less libnotify dunst waybar zsh nautilus hyprlock rofi-wayland pipewire-pulse pavucontrol fzf zoxide eza bat-extras fastfetch imagemagick impala wlsunset wl-clipboard grim slurp jq hyprpicker ttf-roboto-mono-nerd ttf-meslo-nerd adobe-source-han-sans-jp-fonts
    ```
    `less`
    `libnotify`
@@ -39,7 +39,7 @@
    `fzf`
    `zoxide`
    `eza`
-   `bat`
+   `bat-extras`
    `fastfetch`
    `imagemagick`
    `impala`
@@ -64,7 +64,7 @@
 
    Such as
 
-   - `stow` `mpv` `viewnior` `foliate` `gnome-calculator` `gnome-text-editor` `github-cli` `yt-dlp` `7zip` `qbittorrent` `btop` `ncdu` `yazi` `wireplumber` `hypridle` `hyprpaper` `bibata-cursor-theme`***(AUR)*** `floorp-bin`***(AUR)***
+   - `wget` `stow` `github-cli` `yt-dlp` `7zip` `qbittorrent` `btop` `ncdu` `mpv` `viewnior` `foliate` `gnome-calculator` `yazi` `wireplumber` `hypridle` `hyprpaper` `bibata-cursor-theme`***(AUR)*** `floorp-bin`***(AUR)***
 
 
    ...and any others you wish.

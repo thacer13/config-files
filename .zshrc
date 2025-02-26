@@ -16,6 +16,7 @@ setopt INC_APPEND_HISTORY
 setopt HIST_REDUCE_BLANKS
 
 eval "$(zoxide init zsh --cmd cd)"
+eval "$(batman --export-env)" 
 setopt AUTO_CD
 setopt AUTO_PUSHD
 setopt PUSHD_IGNORE_DUPS
