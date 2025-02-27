@@ -11,6 +11,11 @@ insert = "bar"
 normal = "block"
 select = "underline"
 
+[editor.indent-guides]
+render = true
+character = "|"
+skip-levels = 1
+
 [keys.normal]
 "{" = ["goto_prev_paragraph", "collapse_selection"]
 "}" = ["goto_next_paragraph", "collapse_selection"]

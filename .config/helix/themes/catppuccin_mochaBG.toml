@@ -1,5 +1,5 @@
 inherits = "catppuccin_mocha"
 "ui.background" = { bg = "" }
 "ui.text" = { bg = "" }
-"ui.gutter" = { bg = "#232634" }
-# "ui.gutter.selected" = { bg = "#000000" }
+"ui.gutter" = { bg = "#181825" }
+# "ui.virtual.indent.guide" = { fg = "#45475a" }
