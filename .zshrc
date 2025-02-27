@@ -1,6 +1,6 @@
 fastfetch --config ~/.config/fastfetch/os.jsonc
 
-export EDITOR=vim
+export EDITOR=helix
 export PATH="$HOME/.local/bin:$PATH"
 export PATH="$HOME/.config/scripts:$PATH"
 export TERM="xterm-256color"

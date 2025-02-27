@@ -1,0 +1,10 @@
+.config/gh
+.config/gtk-3.0
+.config/gtk-4.0
+.config/dconf
+.config/pulse
+.config/systemd
+.config/nvim
+.config/vim
+.config/nautilus
+.config/btop/btop.log
