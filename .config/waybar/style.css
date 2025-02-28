@@ -15,6 +15,10 @@ window#waybar {
     transition-duration: 0.1s;
 }
 
+window#waybar.empty {
+    background-color: alpha(@crust, 0.0);
+}
+
 #window {
     margin: 8px;
     padding-left: 8;
