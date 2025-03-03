@@ -1,11 +1,12 @@
 * {
     font:   "Roboto Mono 12";
 
-    bg0: rgba ( 49, 50, 68, 66 % );
+    bg0: rgba ( 30, 30, 46, 66 % );
     bg1: rgba ( 69, 71, 90, 66 % );
-    fg0: rgba ( 205, 214, 244, 66 % );
+    bg2: rgba ( 24, 24, 37, 26 % );
+    fg0: rgba ( 205, 214, 244, 100 % );
 
-    accent-color:     #b4befe;
+    accent-color:     #94e2d5;
     urgent-color:     #fab387;
 
     background-color:   transparent;
@@ -69,6 +70,10 @@ element normal active {
     text-color: @accent-color;
 }
 
+element alternate normal {
+    background-color: @bg2;
+}
+
 element alternate active {
     text-color: @accent-color;
 }
@@ -86,7 +91,7 @@ element selected urgent {
 }
 
 element-icon {
-    size:   0.8em;
+    size:   1.7em;
 }
 
 element-text {
