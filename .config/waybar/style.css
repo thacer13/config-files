@@ -9,7 +9,7 @@
 
 window#waybar {
     background: transparent;
-    background-color: alpha(@crust, 0.66);
+    background-color: alpha(@crust, 0.75);
     color: @overlay0;
     transition-property: background-color;
     transition-duration: 0.1s;
