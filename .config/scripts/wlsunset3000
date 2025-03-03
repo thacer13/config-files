@@ -13,6 +13,6 @@ if pgrep -x "wlsunset" > /dev/null; then
     fi
     dunstify "WLSunset disabled"
 else
-    wlsunset -t 1500 &
-    dunstify "WLSunset enabled with temp 1500K"
+    wlsunset -t 3000 &
+    dunstify "WLSunset enabled with temp 3000K"
 fi
