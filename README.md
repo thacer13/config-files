@@ -66,7 +66,7 @@
 
    Such as
 
-   - `wget` `stow` `github-cli` `yt-dlp` `7zip` `qbittorrent` `btop` `ncdu` `mpv` `viewnior` `foliate` `gnome-calculator` `yazi` `wireplumber` `hypridle` `bibata-cursor-theme`***(AUR)*** `floorp-bin`***(AUR)***
+   - `wget` `stow` `github-cli` `yt-dlp` `7zip` `qbittorrent` `btop` `ncdu` `mpv` `viewnior` `foliate` `gnome-calculator` `yazi` `wireplumber` `hypridle` `papirus-icon-theme` `bibata-cursor-theme`***(AUR)*** `floorp-bin`***(AUR)***
 
 
    ...and any others you wish.
