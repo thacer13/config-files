@@ -1,4 +1,9 @@
 configuration {
+    show-icons: true;
+
+    display-drun:   ">>> ";
+    display-window: "󱂬  :";
+
     modes: [ combi, drun, window ];
     combi-modes: [ window, drun, run ];
 }
