@@ -3,9 +3,9 @@
     "logo": {
         "source": "~/.config/fastfetch/hyprchan.png", 
         "type": "kitty",
-        "height": 18,
+        "height": 14,
         "padding": {
-	        "top": 2
+	        "top": 3
 	},
     },
     "display": {
