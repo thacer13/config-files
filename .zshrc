@@ -54,6 +54,8 @@ source ~/.config/zshrc-aliases
 source <(fzf --zsh)
 
 pas() {
-    fpc -vh -FE/tmp "$1" && echo -e "\n\n\n\n\n" && /tmp/"${1%.*}"
+    echo -e "\033[1;33m"
+    fpc -vh -FE/tmp "$1"
+    echo -e "\033[0m\n"
+    /tmp/"${1%.*}"
 }
-
