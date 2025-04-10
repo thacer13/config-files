@@ -1,0 +1,5 @@
+inherits = "snazzy"
+"ui.virtual.indent-guide" = { fg = "#45475a" }
+"ui.gutter" = { bg = "#181825" }
+"ui.gutter.selected" = { bg = "#000000" }
+"ui.linenr.selected" = { fg = "#45475a" }

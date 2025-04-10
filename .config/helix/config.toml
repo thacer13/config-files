@@ -1,4 +1,4 @@
-theme = "snazzy"
+theme = "snazzy_t"
 # theme = "catppuccin_mochaBG"
 # theme = "ao"
 
@@ -14,7 +14,7 @@ select = "underline"
 
 [editor.indent-guides]
 render = true
-character = "|"
+character = "│"
 skip-levels = 1
 
 [keys.normal]
