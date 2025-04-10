@@ -52,3 +52,8 @@ source ~/.config/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 source ~/.config/zshrc-aliases
 source <(fzf --zsh)
+
+pas() {
+    fpc -vh -FE/tmp "$1" && echo -e "\n\n\n\n\n" && /tmp/"${1%.*}"
+}
+
