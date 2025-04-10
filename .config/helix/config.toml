@@ -1,4 +1,5 @@
-theme = "catppuccin_mochaBG"
+theme = "snazzy"
+# theme = "catppuccin_mochaBG"
 # theme = "ao"
 
 [editor]
