@@ -9,3 +9,10 @@
 .config/nautilus
 .config/btop/btop.log
 .config/geany
+.config/obs-studio
+.config/libreoffice
+.config/obsidian
+.config/mimeapps.list
+.config/QtProject.conf
+.config/user-dirs.dirs
+.config/user-dirs.locale
