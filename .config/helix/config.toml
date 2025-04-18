@@ -1,11 +1,15 @@
-theme = "snazzy_t"
-# theme = "catppuccin_mochaBG"
+theme = "everforest_darkBG"
 # theme = "ao"
 
 [editor]
 line-number = "relative"
+color-modes = true
 mouse = false
 true-color = true
+bufferline = "multiple"
+
+[editor.soft-wrap]
+enable = true
 
 [editor.cursor-shape]
 insert = "bar"
@@ -17,9 +21,18 @@ render = true
 character = "│"
 skip-levels = 1
 
+[editor.lsp]
+display-messages = true
+
+[editor.statusline]
+left = ["mode", "spinner", "file-name", "file-type", "total-line-numbers", "file-encoding"]
+
 [keys.normal]
+"tab" = ":buffer-next"
+"S-tab" = ":buffer-previous"
 "{" = ["goto_prev_paragraph", "collapse_selection"]
 "}" = ["goto_next_paragraph", "collapse_selection"]
+"space" = {x = ":buffer-close"}
 Z = {Q = ":quit!", Z = ":write-quit!"}
 esc = ["collapse_selection", "keep_primary_selection"]
 X = "extend_line_above"
@@ -27,6 +40,8 @@ X = "extend_line_above"
 [keys.select]
 "{" = ["goto_prev_paragraph", "collapse_selection"]
 "}" = ["goto_next_paragraph", "collapse_selection"]
+"space" = {x = ":buffer-close"}
 Z = {Q = ":quit!", Z = ":write-quit!"}
 esc = ["collapse_selection", "keep_primary_selection", "normal_mode"]
 X = "extend_line_above"
+

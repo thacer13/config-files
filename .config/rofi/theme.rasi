@@ -6,7 +6,7 @@
     bg2: rgba ( 24, 24, 37, 26 % );
     fg0: rgba ( 205, 214, 244, 100 % );
 
-    accent-color:     #94e2d5;
+    accent-color:     #87a3ca;
     urgent-color:     #fab387;
 
     background-color:   transparent;

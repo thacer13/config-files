@@ -51,11 +51,6 @@ function chpwd () {
 source ~/.config/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 source ~/.config/zshrc-aliases
+source ~/.config/zshrc-compiled-langs
 source <(fzf --zsh)
 
-pas() {
-    echo -e "\033[1;33m"
-    fpc -vh -FE/tmp "$1"
-    echo -e "\033[0m\n"
-    /tmp/"${1%.*}"
-}

@@ -1,0 +1,16 @@
+# Run the appropriate function on source code files to instantly run them.
+
+pas() {
+    echo -e "\033[1;33m"
+    fpc -vh -FE/tmp "$1"
+    echo -e "\033[0m\n"
+    /tmp/"${1%.*}"
+}
+
+c() {
+    echo -e "\033[1;33m"
+    gcc -Wall -o /tmp/"${1%.*}" "$1"
+    echo -e "\033[0m\n"
+    /tmp/"${1%.*}"
+}
+
