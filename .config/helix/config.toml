@@ -31,6 +31,7 @@ left = ["mode", "spinner", "file-name", "file-type", "total-line-numbers", "file
 cursor-line = "error"
 
 [keys.normal]
+a = ["ensure_selections_forward", "collapse_selection", "move_char_right", "insert_mode"]
 "tab" = ":buffer-next"
 "S-tab" = ":buffer-previous"
 "{" = ["goto_prev_paragraph", "collapse_selection"]
