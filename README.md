@@ -24,7 +24,7 @@
 3. **Install required Packages for the config**
 
    ```
-   sudo pacman -S --needed less libnotify dunst waybar zsh nautilus hyprlock hyprpaper rofi-wayland pipewire-pulse pavucontrol fzf zoxide eza bat-extras fastfetch imagemagick impala wlsunset wl-clipboard grim slurp jq hyprpicker ttf-roboto-mono-nerd ttf-meslo-nerd noto-fonts-emoji adobe-source-han-sans-jp-fonts
+   sudo pacman -S --needed less libnotify dunst waybar zsh nautilus hyprlock hyprpaper hypridle rofi-wayland pipewire-pulse pavucontrol fzf zoxide eza bat-extras fastfetch imagemagick impala wlsunset wl-clipboard grim slurp jq hyprpicker ttf-roboto-mono-nerd ttf-meslo-nerd noto-fonts-emoji adobe-source-han-sans-jp-fonts
    ```
    `less`
    `libnotify`
@@ -34,6 +34,7 @@
    `nautilus`
    `hyprlock`
    `hyprpaper`
+   `hypridle`
    `rofi-wayland`
    `pipewire-pulse`
    `pavucontrol`
@@ -66,8 +67,10 @@
 
    Such as
 
-   - `wget` `stow` `github-cli` `yt-dlp` `7zip` `qbittorrent` `btop` `ncdu` `tealdeer` `mpv` `viewnior` `foliate` `obsidian` `gnome-calculator` `yazi` `wireplumber` `hypridle` `papirus-icon-theme` `bibata-cursor-theme`***(AUR)*** `zen-browser-bin`***(AUR)***
+   - `wget` `stow` `github-cli` `yt-dlp` `7zip` `qbittorrent` `btop` `ncdu` `tealdeer` `mpv` `viewnior` `foliate` `obsidian` `gnome-calculator` `yazi` `wireplumber` `papirus-icon-theme` `bibata-cursor-theme`***(AUR)*** `zen-browser-bin`***(AUR)***
 
 
    ...and any others you wish.
 
+6. **Language specific packages**
+   - `gcc` `clang` `fpc` `bash-language-server`
