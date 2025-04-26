@@ -62,12 +62,13 @@
 
    - Clone the configuration files from the repository.
    - Change shell to zsh: `chsh -s $(which zsh)`
+   - Consider setting up AUR and flatpak
 
 5. **Install Additional Packages**
 
    Such as
 
-   - `wget` `stow` `github-cli` `yt-dlp` `7zip` `qbittorrent` `btop` `ncdu` `tealdeer` `mpv` `viewnior` `foliate` `obsidian` `gnome-calculator` `yazi` `wireplumber` `papirus-icon-theme` `bibata-cursor-theme`***(AUR)*** `zen-browser-bin`***(AUR)***
+   - `wget` `stow` `github-cli` `yt-dlp` `7zip` `qbittorrent` `btop` `ncdu` `tealdeer` `mpv` `viewnior` `foliate` `obsidian` `gimp` `gnome-calculator` `yazi` `wireplumber` `papirus-icon-theme` `bibata-cursor-theme`***(AUR)*** `zen-browser-bin`***(AUR)*** `obs-studio`***(flatpak)***
 
 
    ...and any others you wish.

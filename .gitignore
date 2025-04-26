@@ -16,3 +16,6 @@
 .config/QtProject.conf
 .config/user-dirs.dirs
 .config/user-dirs.locale
+.config/GIMP
+.config/pavucontrol.ini
+.config/viewnior
