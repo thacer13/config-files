@@ -68,7 +68,7 @@
 
    Such as
 
-   - `wget` `stow` `github-cli` `yt-dlp` `7zip` `qbittorrent` `btop` `ncdu` `tealdeer` `mpv` `viewnior` `foliate` `obsidian` `gimp` `gnome-calculator` `yazi` `wireplumber` `papirus-icon-theme` `bibata-cursor-theme`***(AUR)*** `zen-browser-bin`***(AUR)*** `obs-studio`***(flatpak)***
+   - `wget` `stow` `github-cli` `yt-dlp` `7zip` `qbittorrent` `btop` `ncdu` `tealdeer` `mpv` `viewnior` `foliate` `obsidian` `gimp` `wine` `gnome-calculator` `yazi` `wireplumber` `papirus-icon-theme` `bibata-cursor-theme`***(AUR)*** `zen-browser-bin`***(AUR)*** `obs-studio`***(flatpak)***
 
 
    ...and any others you wish.
