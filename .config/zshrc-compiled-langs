@@ -9,8 +9,14 @@ pas() {
 
 c() {
     echo -e "\033[1;33m"
-    gcc -Wall -o /tmp/"${1%.*}" "$1"
+    clang -std=c99 -Wall -Werror -o /tmp/"${1%.*}" "$1"
     echo -e "\033[0m\n"
     /tmp/"${1%.*}"
 }
 
+cray() {
+    echo -e "\033[1;33m"
+    gcc -o /tmp/"${1%.*}" -lraylib -lm -ldl -lpthread -lGL "$1"
+    echo -e "\033[0m\n"
+    /tmp/"${1%.*}"
+}
