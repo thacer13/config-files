@@ -1,3 +1,14 @@
 [[language]]
 name = "c"
 indent = { tab-width = 4, unit = "    " }
+
+[[language]]
+name = "html"
+
+[language.auto-pairs]
+'(' = ')'
+'{' = '}'
+'[' = ']'
+'"' = '"'
+'`' = '`'
+'<' = '>'

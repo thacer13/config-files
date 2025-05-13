@@ -7,6 +7,7 @@ color-modes = true
 mouse = false
 true-color = true
 bufferline = "multiple"
+auto-completion = false
 
 [editor.soft-wrap]
 enable = true
@@ -48,6 +49,3 @@ X = "extend_line_above"
 Z = {Q = ":quit!", Z = ":write-quit!"}
 esc = ["collapse_selection", "keep_primary_selection", "normal_mode"]
 X = "extend_line_above"
-
-[keys.insert]
-tab = "smart_tab"
