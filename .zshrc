@@ -54,3 +54,5 @@ source ~/.config/zshrc-aliases
 source ~/.config/zshrc-compiled-langs
 source <(fzf --zsh)
 
+
+export PATH=$PATH:/home/thacer/.spicetify

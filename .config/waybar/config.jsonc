@@ -32,7 +32,8 @@
     "tooltip-format": "{time}"
   },
   "network": {
-    "format-wifi": "<span size='13000' foreground='#f5e0dc'>  </span>{essid}",
+    "format-wifi": "<span size='13000' foreground='#f5e0dc'>  </span>",
+    // "format-wifi": "<span size='13000' foreground='#f5e0dc'>  </span>{essid}",
     "format-ethernet": "<span size='13000' foreground='#f5e0dc'>󰈁</span>",
     "tooltip-format-ethernet":"Wired connection",
     "format-linked": "{ifname} (No IP) ",
