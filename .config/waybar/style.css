@@ -1,7 +1,8 @@
 @import "mocha.css"; 
 
 * {
-    font-family: "Adobe Source Han Sans Subset OTF", "MesloLGS Nerd Font Mono Bold";
+    font-family: "FreeMono", "MesloLGS Nerd Font Mono Bold";
+    /* font-family: "Adobe Source Han Sans Subset OTF", "MesloLGS Nerd Font Mono Bold"; */
     font-size: 16px;
     min-height: 0;
     font-weight: bold;
