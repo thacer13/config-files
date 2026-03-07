@@ -1,0 +1,6 @@
+inherits = "kanagawa"
+"ui.background" = { bg = "" }
+"ui.text" = { bg = "" }
+"ui.gutter" = { bg = "" }
+"ui.gutter.selected" = { bg = "" }
+

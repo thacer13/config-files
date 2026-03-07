@@ -1,5 +1,5 @@
-theme = "everforest_darkBG"
-# theme = "ao"
+# theme = "everforest_darkBG"
+theme = "snazzyBG"
 
 [editor]
 line-number = "relative"

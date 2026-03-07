@@ -1,0 +1,9 @@
+inherits = "snazzy"
+"ui.background" = { bg = "" }
+"ui.text" = { bg = "" }
+"ui.virtual.indent-guide" = { fg = "#A4A49D" }
+"ui.linenr" = { fg = "#54546D" }
+"ui.linenr.selected" = { fg = "#FF9E3B", modifiers = ["bold"] }
+"ui.gutter" = { fg = "#54546D" }
+
+
