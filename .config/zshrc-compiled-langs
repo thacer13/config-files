@@ -32,7 +32,6 @@ clean:
 	rm -f $(OBJS) $(TARGET)
 EOF
 
-    # Replaced ^^ with a cross-shell compatible 'tr' command
     local HEADER_GUARD=$(echo "${MOD_NAME}_H" | tr '[:lower:]' '[:upper:]')
     
     cat << EOF > "${MOD_NAME}.h"

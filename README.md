@@ -77,3 +77,6 @@
 
 6. **Language specific packages**
    - `gcc` `clang` `fpc` `bash-language-server`
+
+7. **Stow**
+   - Stow everything with `stow -t ~ .`. If need to undo, run `stow -D -t ~ .`
