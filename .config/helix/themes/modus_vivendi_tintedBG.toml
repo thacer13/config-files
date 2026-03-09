@@ -1,0 +1,9 @@
+inherits = "modus_vivendi_tinted"
+"ui.background" = { bg = "" }
+"ui.text" = { bg = "" }
+"ui.virtual.indent-guide" = { fg = "#A4A49D" }
+"ui.linenr" = { fg = "#54546D" }
+"ui.linenr.selected" = { fg = "#FFFFFF" }
+"ui.gutter" = { fg = "#54546D" }
+
+
