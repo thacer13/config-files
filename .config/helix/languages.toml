@@ -1,0 +1,7 @@
+[[language]]
+name = "c"
+scope = "source.c"
+file-types = ["c", "h"]
+auto-format = true
+formatter = { command = "clang-format" }
+language-servers = ["clangd"]
