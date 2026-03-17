@@ -1,7 +1,7 @@
 ![Header](https://i.imgur.com/Lu2dBCL.png)
     
 > [!NOTE]
-> This isn't intended to work out-of-the-box in *any* environment except my own.
+> You will have to make tweaks and adaptations. This config doesn't have out-of-the-box public usage in mind.
 
 ## Installation
 
@@ -65,21 +65,21 @@
 
 4. **Clone Configuration Files**
 
-   - Clone the configuration files from the repository.
-   - Change shell to zsh: `chsh -s $(which zsh)`
+   - Clone the repository into your home.
+   - Change shell to zsh: `chsh -s $(which zsh)` and reboot to apply.
    - Consider setting up AUR and flatpak
 
 5. **Install Additional Packages**
 
    Such as
 
-   - `wget` `github-cli` `yt-dlp` `7zip` `qbittorrent` `btop` `ncdu` `tealdeer` `mpv` `viewnior` `foliate` `obsidian` `gimp` `wine` `gnome-calculator` `yazi` `wireplumber` `papirus-icon-theme` `bibata-cursor-theme`***(AUR)*** `zen-browser-bin`***(AUR)*** `obs-studio`***(flatpak)***
+   - `wget` `yt-dlp` `7zip` `qbittorrent` `btop` `ncdu` `tealdeer` `mpv` `viewnior` `foliate` `obsidian` `gimp` `wine` `gnome-calculator` `yazi` `wireplumber` `papirus-icon-theme` `bibata-cursor-theme`***(AUR)*** `zen-browser-bin`***(AUR)*** `obs-studio`***(flatpak)***
 
+   Development specific:
+    
+   - `gcc` `clang` `cmake` `cpio` `meson` `bash-language-server` `base-devel` `github-cli` `pkgconfig`
 
-   ...and any others you wish.
+   ...or any others you wish.
 
-6. **Language specific packages**
-   - `gcc` `clang` `cmake` `cpio` `meson` `bash-language-server`
-
-7. **Stow**
-   - Stow everything with `stow -t ~ .`. If need to undo, run `stow -D -t ~ .`
+6. **Stow**
+   - Stow everything from within the repo with `stow -t --adopt ~ . && git reset --hard`. If need to unstow, run `stow -D -t ~ .`
