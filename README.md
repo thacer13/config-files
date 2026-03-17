@@ -79,7 +79,7 @@
    ...and any others you wish.
 
 6. **Language specific packages**
-   - `gcc` `clang` `fpc` `bash-language-server`
+   - `gcc` `clang` `cmake` `cpio` `meson` `bash-language-server`
 
 7. **Stow**
    - Stow everything with `stow -t ~ .`. If need to undo, run `stow -D -t ~ .`
