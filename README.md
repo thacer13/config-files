@@ -12,21 +12,24 @@
    - `firefox`
    - `git`
    - `helix`
+   - `hyprland`
 
 2. **Hyprland**
 
    Please read the [Hyprland installation instructions](https://wiki.hyprland.org/Getting-Started/Installation/). *For now, using UWSM will require multiple changes to the config.*
 
    ```
-   sudo pacman -S xdg-desktop-portal-hyprland qt5-wayland qt6-wayland polkit-kde-agent
+   sudo pacman -S xdg-desktop-portal-hyprland qt5-wayland qt6-wayland hyprpolkitagent
    ```
 
 3. **Install required Packages for the config**
 
    ```
-   sudo pacman -S --needed less libnotify dunst waybar zsh nautilus featherpad hyprlock hyprpaper hypridle rofi-wayland pipewire-pulse pavucontrol fzf zoxide eza bat-extras fastfetch imagemagick impala wlsunset wl-clipboard grim slurp jq hyprpicker ttf-roboto-mono-nerd ttf-iosevka-nerd ttf-meslo-nerd noto-fonts-emoji adobe-source-han-sans-jp-fonts
+   sudo pacman -S --needed less which stow libnotify dunst waybar zsh nautilus featherpad hyprlock hyprpaper hypridle rofi-wayland pipewire-pulse pavucontrol fzf zoxide eza bat-extras fastfetch imagemagick impala wlsunset wl-clipboard grim slurp jq hyprpicker ttf-roboto-mono-nerd ttf-iosevka-nerd ttf-meslo-nerd noto-fonts-emoji adobe-source-han-sans-jp-fonts
    ```
    `less`
+   `which`
+   `stow`
    `libnotify`
    `dunst`
    `waybar`
@@ -70,7 +73,7 @@
 
    Such as
 
-   - `wget` `stow` `github-cli` `yt-dlp` `7zip` `qbittorrent` `btop` `ncdu` `tealdeer` `mpv` `viewnior` `foliate` `obsidian` `gimp` `wine` `gnome-calculator` `yazi` `wireplumber` `papirus-icon-theme` `bibata-cursor-theme`***(AUR)*** `zen-browser-bin`***(AUR)*** `obs-studio`***(flatpak)***
+   - `wget` `github-cli` `yt-dlp` `7zip` `qbittorrent` `btop` `ncdu` `tealdeer` `mpv` `viewnior` `foliate` `obsidian` `gimp` `wine` `gnome-calculator` `yazi` `wireplumber` `papirus-icon-theme` `bibata-cursor-theme`***(AUR)*** `zen-browser-bin`***(AUR)*** `obs-studio`***(flatpak)***
 
 
    ...and any others you wish.
