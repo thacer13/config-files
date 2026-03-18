@@ -31,7 +31,7 @@ __git_files () {
     _wanted files expl 'local files' _files
 }
 
-bindkey -v
+# bindkey -v
 export KEYTIMEOUT=1
 autoload -Uz compinit && compinit
 zstyle ':completion:*' menu select
@@ -49,6 +49,7 @@ function chpwd () {
 }
 
 source ~/.config/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source ~/.config/zsh-helix-mode/zsh-helix-mode.zsh
 
 source ~/.config/zshrc-aliases
 source ~/.config/zshrc-compiled-langs
