@@ -1,6 +1,7 @@
 fastfetch --config ~/.config/fastfetch/os.jsonc
 
 export EDITOR=helix
+export SUDO_EDITOR="hx"
 export PATH="$HOME/.local/bin:$PATH"
 export PATH="$HOME/.config/scripts:$PATH"
 export TERM="xterm-256color"
