@@ -1,7 +1,7 @@
 inherits = "snazzy"
 "ui.background" = { bg = "" }
 "ui.text" = { bg = "" }
-"ui.virtual.indent-guide" = { fg = "#A4A49D" }
+"ui.virtual.indent-guide" = { fg = "#FF9E3B" }
 "ui.linenr" = { fg = "#000000" }
 "ui.linenr.selected" = { fg = "#FF9E3B", modifiers = ["bold"] }
 "ui.gutter" = { fg = "#54546D" }
